@@ -34,7 +34,7 @@ jobs:
           name: quantic-wallet-windows
           path: build/windows/runner/Release/
 
-    build-linux:
+  build-linux:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
